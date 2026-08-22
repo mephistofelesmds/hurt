@@ -915,3 +915,224 @@ body > * {
     padding-left: 1.2rem;
   }
 }
+
+a.custom-link {
+  color: #7a55ff;
+  text-align: center;
+  align-items: center;
+}
+
+.bots-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.bot-card {
+  background: linear-gradient(145deg, rgba(27, 27, 51, 0.85), rgba(0, 0, 0, 0.3));
+  border-radius: 1.2rem;
+  padding: 1.8rem 1.5rem;
+  text-align: center;
+  border: 1px solid rgba(122, 85, 255, 0.2);
+  transition: all 0.3s ease;
+  animation: fadeInUp 2s ease 0.3s both;
+}
+
+.bot-card:hover {
+  border-color: #7a55ff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(122, 85, 255, 0.15);
+}
+
+.bot-icon {
+  font-size: 2.2rem;
+  color: #7a55ff;
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+
+.bot-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #efefef;
+  margin-bottom: 0.4rem;
+  font-family: 'Font1', 'Georgia', serif;
+}
+
+.bot-desc {
+  font-size: 0.85rem;
+  color: #8a8f99;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.bot-link {
+  display: inline-block;
+  background: rgba(122, 85, 255, 0.12);
+  color: #7a55ff;
+  padding: 0.3rem 1.2rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid rgba(122, 85, 255, 0.15);
+  transition: all 0.3s ease;
+  font-family: 'Font1', 'Georgia', serif;
+}
+
+.bot-link:hover {
+  background: #7a55ff;
+  color: #efefef;
+  border-color: #7a55ff;
+}
+
+@media (max-width: 650px) {
+  .bots-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .bot-card {
+    padding: 1.5rem 1.2rem;
+  }
+}.bots-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.bot-card {
+  background: linear-gradient(145deg, rgba(27, 27, 51, 0.85), rgba(0, 0, 0, 0.3));
+  border-radius: 1.2rem;
+  padding: 1.8rem 1.5rem;
+  text-align: center;
+  border: 1px solid rgba(122, 85, 255, 0.2);
+  transition: all 0.3s ease;
+  animation: fadeInUp 2s ease 0.3s both;
+}
+
+.bot-card:hover {
+  border-color: #7a55ff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(122, 85, 255, 0.15);
+}
+
+.bot-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #efefef;
+  margin-bottom: 0.4rem;
+  font-family: 'Font1', 'Georgia', serif;
+}
+
+.bot-desc {
+  font-size: 0.85rem;
+  color: #8a8f99;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.bot-link {
+  display: inline-block;
+  background: rgba(122, 85, 255, 0.12);
+  color: #7a55ff;
+  padding: 0.3rem 1.2rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid rgba(122, 85, 255, 0.15);
+  transition: all 0.3s ease;
+  font-family: 'Font1', 'Georgia', serif;
+}
+
+.bot-link:hover {
+  background: #7a55ff;
+  color: #efefef;
+  border-color: #7a55ff;
+}
+
+@media (max-width: 650px) {
+  .bots-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .bot-card {
+    padding: 1.5rem 1.2rem;
+  }
+}
+
+.race-info-block {
+  background: linear-gradient(145deg, rgba(27, 27, 51, 0.7), rgba(0, 0, 0, 0.2));
+  border-radius: 1.2rem;
+  padding: 1.5rem 2rem;
+  border: 1px solid rgba(122, 85, 255, 0.15);
+  margin-top: 0.5rem;
+  animation: fadeInUp 2.5s ease 0.3s both;
+}
+
+.race-link-container {
+  display: flex;
+  justify-content: center;
+  margin: 0.8rem 0 0.3rem 0;
+}
+
+.race-link-main {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: rgba(122, 85, 255, 0.08);
+  color: #efefef;
+  padding: 0.7rem 2rem;
+  border-radius: 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid rgba(122, 85, 255, 0.25);
+  transition: all 0.3s ease;
+  font-family: 'Font1', 'Georgia', serif;
+  letter-spacing: 0.04em;
+}
+
+.race-link-main:hover {
+  background: #7a55ff;
+  border-color: #7a55ff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(122, 85, 255, 0.25);
+}
+
+.race-link-icon {
+  color: #7a55ff;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.race-link-main:hover .race-link-icon {
+  color: #efefef;
+}
+
+.race-link-arrow {
+  color: #7a55ff;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.race-link-main:hover .race-link-arrow {
+  transform: translateX(4px);
+  color: #efefef;
+}
+
+@media (max-width: 550px) {
+  .race-info-block {
+    padding: 1.2rem 1rem;
+  }
+  
+  .race-link-main {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    gap: 0.4rem;
+  }
+}
